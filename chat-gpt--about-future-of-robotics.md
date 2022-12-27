@@ -561,3 +561,122 @@ It may be helpful to consult with experts or vendors who specialize in robotics 
 
 ---
 
+Q:
+Given the a top robotics companies in the world. What TOP 10 companies will be our robotics future on Earth?
+
+A:
+It is difficult to predict with certainty which specific companies will be the top robotics companies in the world in the future, as the robotics industry is constantly evolving and new players and technologies are emerging. However, some companies that are currently considered to be among the leading robotics companies in the world include:
+
+1. ABB: ABB is a global leader in robotics and automation technology, with a wide range of products and solutions for a variety of industries.
+
+2. Fanuc: Fanuc is a Japanese company that is a leading provider of robotics and automation solutions for manufacturing, including industrial robots and CNC machines.
+
+3. KUKA: KUKA is a German company that is a leading provider of industrial robots and automation solutions for a variety of industries.
+
+4. Yamaha Motor: Yamaha Motor is a Japanese company that is a leading provider of robotics and automation solutions for a variety of industries, including manufacturing, logistics, and healthcare.
+
+5. Universal Robots: Universal Robots is a Danish company that is a leading provider of collaborative robots (cobots) for use in manufacturing and other industries.
+
+6. Boston Dynamics: Boston Dynamics is an American company that is a leader in the development of advanced robotics technologies, including legged and wheeled robots.
+
+7. Intuitive Surgical: Intuitive Surgical is an American company that is a leader in the development of robotic surgical systems for use in minimally invasive surgery.
+
+8. Rethink Robotics: Rethink Robotics was an American company (now part of Hahn Group) that was a leading provider of collaborative robots (cobots) for use in manufacturing and other industries.
+
+9. Epson: Epson is a Japanese company that is a leading provider of robotics and automation solutions for a variety of industries, including manufacturing, logistics, and healthcare.
+
+10. iRobot: iRobot is an American company that is a leading provider of consumer and military robots, including vacuum cleaners, pool cleaners, and military ground robots.
+
+It is important to note
+
+
+
+Regenerate response
+
+---
+
+Q:
+Give me a list of TOP100 comapnies with strongest specialization in AI with descriptions.
+
+A:
+It is difficult to compile a definitive list of the top 100 companies with the strongest specialization in artificial intelligence (AI), as the AI industry is constantly evolving and new players and technologies are emerging. Additionally, the concept of "strongest specialization" in AI is subjective and can be difficult to quantify.
+
+That being said, some companies that are widely recognized as being leaders in the AI industry and have a strong focus on AI research and development include:
+
+1. Google: Google is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+2. Microsoft: Microsoft is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+3. IBM: IBM is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+4. Amazon: Amazon is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+5. Apple: Apple is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+6. Facebook: Facebook is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+7. NVIDIA: NVIDIA is a multinational technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+8. OpenAI: OpenAI is a nonprofit research organization that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+9. DeepMind: DeepMind is a British artificial intelligence research company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+10. Baidu: Baidu is a Chinese technology company that is a leader in AI research and development, with a strong focus on machine learning and natural language processing.
+
+This is just a small sample of the many companies that are currently working on AI research and development, and the list could be much longer. It is important to note that AI is a rapidly evolving field, and the companies that are currently considered leaders may not necessarily remain at the forefront in the future.
+
+---
+Q:
+Write for me finite state machine (with four moves, start, stop actions) for mobile robot movement in two dimentional environment in Pascal programming language.
+
+A:
+Here is an example of a finite state machine (FSM) for a mobile robot movement in a two-dimensional environment, written in Pascal programming language:
+
+```pascal
+type
+  TState = (Start, Forward, Left, Right, Stop);
+
+var
+  CurrentState: TState;
+
+begin
+  CurrentState := Start;
+
+  while True do
+  begin
+    case CurrentState of
+      Start:
+        begin
+          WriteLn('Starting robot...');
+          CurrentState := Forward;
+        end;
+      Forward:
+        begin
+          WriteLn('Moving forward...');
+          CurrentState := Left;
+        end;
+      Left:
+        begin
+          WriteLn('Turning left...');
+          CurrentState := Right;
+        end;
+      Right:
+        begin
+          WriteLn('Turning right...');
+          CurrentState := Forward;
+        end;
+      Stop:
+        begin
+          WriteLn('Stopping robot...');
+          Break;
+        end;
+    end;
+  end;
+end.
+```
+
+This FSM has four states: Start, Forward, Left, and Right, and a Stop action that terminates the FSM. The FSM starts in the Start state and transitions to the Forward state, where it moves forward. It then transitions to the Left state, where it turns left, and then to the Right state, where it turns right. Finally, it transitions back to the Forward state and repeats this process until the Stop action is triggered, at which point it breaks out of the loop and terminates the FSM.
+
+This is just one possible implementation of a FSM for a mobile robot movement in a two-dimensional environment, and there are many other ways to design and implement a FSM for this purpose. The specific design of the FSM will depend on the specific requirements and goals of the
+
+---
