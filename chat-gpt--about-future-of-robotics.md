@@ -166,3 +166,109 @@ Overall, the best solution for your real-time control needs will depend on the s
 
 ---
 
+Q:
+How can I survive with my family in next near AI or SkyNet era?
+
+A:
+It is important to recognize that the development of artificial intelligence (AI) is not likely to lead to the emergence of a fully self-aware, superintelligent AI system like Skynet, the fictional AI system from the Terminator movie franchise. While AI has the potential to revolutionize many aspects of our lives and to solve a wide range of problems and challenges, it is not likely to become a conscious entity that is capable of taking over the world or making decisions that could have significant consequences.
+
+With that said, there are a number of steps that you and your family can take to ensure your safety and well-being in the event of an emergency or other crisis situation:
+
+Stay informed: It is important to stay informed about potential emergencies and crisis situations, and to have a plan in place for how to respond. This may include keeping a supply of essential items, such as food, water, and medical supplies, and knowing how to access resources and support in the event of an emergency.
+
+Follow emergency procedures: In the event of an emergency, it is important to follow any emergency procedures that have been put in place, such as evacuating a building or seeking shelter.
+
+Stay calm: It is important to remain calm and focused in an emergency situation, and to follow instructions from authorities or emergency responders.
+
+Seek support: If you or a family member are in need of assistance, it is important to reach out for support from friends, family, or community resources.
+
+Overall, by staying informed, following emergency procedures, remaining calm, and seeking support when needed, you and your family can take steps to ensure your safety and well-being in the event of an emergency or crisis situation.
+
+---
+
+Q:
+What do you think, what exactly date it will be moment, when we need to have more security solutions and what are you suggestions for survive in era of AI?
+
+A:
+It is difficult to predict exactly when the need for additional security measures related to artificial intelligence (AI) will arise, as the field of AI is constantly evolving and new technologies are being developed all the time. However, it is important to be aware of the potential risks and challenges associated with AI, and to take steps to mitigate these risks as the field continues to evolve.
+
+Some potential measures that individuals and organizations could consider to ensure the safety and security of AI systems include:
+
+Ensuring that AI systems are designed and developed in a transparent and accountable manner: This could involve developing and implementing standards and best practices for the development and deployment of AI systems, and ensuring that these systems are subject to appropriate oversight and regulation.
+
+Ensuring that AI systems are based on high-quality data and algorithms: AI systems are only as good as the data and algorithms on which they are based. Ensuring that these systems are based on high-quality, accurate, and unbiased data and algorithms can help to reduce the risk of errors or biased outcomes.
+
+Implementing appropriate security measures: AI systems may be vulnerable to cyber attacks or other security threats. Implementing appropriate security measures, such as encryption, firewalls, and access controls, can help to reduce the risk of unauthorized access or misuse of these systems.
+
+Ensuring that AI systems are designed to be safe and reliable: It is important to ensure that AI systems are designed with safety and reliability in mind, and to put in place measures to ensure that these systems are able to operate safely and effectively.
+
+Overall, by taking a proactive approach to addressing the potential risks and challenges associated with AI, individuals and organizations can help to ensure the safety and security of these systems as the field continues to evolve.
+
+--
+
+Q:
+What do you think: bionics arms with AI software/firmware will be ready to use by humans in next 10 years?
+
+A:
+It is likely that bionic arms with AI software or firmware will be available for use by humans in the next 10 years. Bionic arms are a type of prosthetic device that are designed to replace a missing or impaired limb, and can be controlled by the user through a variety of methods, including electromyography (EMG) or nerve signals.
+
+AI technology has the potential to enhance the functionality and performance of bionic arms by enabling them to process and analyze large amounts of data in real time. For example, AI could be used to enable bionic arms to recognize and respond to the user's intentions, or to adapt to the user's movements and activities.
+
+However, it is important to note that the development and deployment of bionic arms with AI technology will be subject to a range of technical, regulatory, and ethical considerations. Ensuring that these devices are safe, reliable, and effective will be an important challenge, and it may take some time to fully realize the potential of AI-enhanced bionic arms.
+
+Overall, while it is likely that bionic arms with AI technology will become available in the next 10 years, it is difficult to predict exactly when these devices will be ready for widespread use by humans.
+
+---
+
+Q:
+In case of robotics body parts, what is your opinion about RISC-V architecture in near future robotics products implementations?
+
+A:
+The RISC-V (Reduced Instruction Set Computing-V) architecture is a open-source hardware instruction set architecture (ISA) that has been designed to be flexible and extensible. RISC-V has the potential to be a useful platform for the development of robotics products, due to its open nature and the ability to customize and extend the ISA to meet specific requirements.
+
+One potential advantage of using RISC-V in robotics products is that it can enable the development of more efficient and power-saving systems, which may be particularly important in battery-powered robotics products. RISC-V also has the potential to support the development of more secure systems, as the open-source nature of the ISA allows for the review and improvement of security features.
+
+However, it is important to note that the use of RISC-V in robotics products will depend on a range of factors, including the specific requirements and capabilities of the robotics products, as well as the availability of development tools and support for the RISC-V architecture.
+
+Overall, while RISC-V has the potential to be a useful platform for the development of robotics products, it is important to carefully consider the specific requirements and needs of the products, and to evaluate the suitability of the RISC-V architecture in light of these requirements.
+
+---
+
+Q:
+What is difference between ARM and RISC-V in case of building new robot?
+
+A:
+ARM (Advanced RISC Machines) and RISC-V (Reduced Instruction Set Computing-V) are both instruction set architectures (ISAs), which are the set of rules and standards that define how software instructions are translated into machine code that can be executed by a processor. Both ARM and RISC-V are widely used in the development of a variety of electronic devices, including smartphones, tablets, and embedded systems.
+
+There are several key differences between ARM and RISC-V:
+
+Ownership and licensing: ARM is owned by the company ARM Holdings, and the use of the ARM ISA is generally subject to licensing fees. RISC-V, on the other hand, is an open-source ISA, which means that it is freely available for use by anyone.
+
+Customizability: ARM is a proprietary ISA, which means that it is not generally possible for users to modify or extend the ISA to meet their specific needs. RISC-V, on the other hand, is designed to be flexible and extensible, and users are able to customize and extend the ISA to meet their specific requirements.
+
+Ecosystem: ARM has a well-established ecosystem of tools, software, and support, which is generally not available for RISC-V. This may make it easier for users to develop products based on ARM, but may also limit the flexibility and customization available to users.
+
+Overall, the choice between ARM and RISC-V will depend on the specific requirements and needs of the product being developed, as well as the availability of development tools and support. Both ARM and RISC-V have their own advantages and disadvantages, and the best choice will depend on the specific needs of the product and the resources available to the development team.
+
+---
+
+Q:
+But WDYT about real-time operating systems in robotics implementations and what will be the best choice ARM or RISC-V in that case?
+
+A:
+Both ARM and RISC-V can be used as the basis for the development of real-time operating systems (RTOS) for use in robotics applications. An RTOS is a type of operating system that is designed to support real-time processing, which means that it is able to respond to input and complete tasks within a specified time frame. RTOSs are often used in robotics applications to enable the robot to respond to changes in its environment and to perform tasks in a timely and reliable manner.
+
+The choice between ARM and RISC-V for the development of an RTOS for a robotics application will depend on a range of factors, including:
+
+The specific requirements and capabilities of the robotics application: Different robotics applications may have different requirements for real-time processing and control, and it is important to choose an ISA that is able to support these requirements.
+
+The availability of development tools and support: Both ARM and RISC-V have their own ecosystems of development tools and support, and the availability of these resources may be an important consideration when choosing an ISA.
+
+Customizability and flexibility: If the robotics application requires a high degree of customization or the ability to extend the RTOS to meet specific needs, RISC-V may be a better choice due to its open-source and extensible nature.
+
+Cost: The cost of licensing and using ARM may be a factor to consider, particularly for smaller organizations or startups. RISC-V, being open-source, may be a more cost-effective option in some cases.
+
+Overall, the best choice between ARM and RISC-V for the development of an RTOS for a robotics application will depend on the specific requirements and needs of the application, as well as the availability
+
+---
+
